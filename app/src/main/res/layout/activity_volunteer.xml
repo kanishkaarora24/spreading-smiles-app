@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anandsingh.net.spreadingsmiles.volunteer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-----BE A VOLUNTEER-----"
+                android:layout_marginTop="8dp"
+                android:elevation="5dp"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Do you have the passion to walk a mile to bring the smiles?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:textStyle="italic"
+                android:text="Do you want to help the poor?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Do you want to spread smiles?"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/volunteer"
+                android:scaleType="centerCrop"
+                android:elevation="5dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="Join us and be a volunteeer!"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@android:color/black"
+                android:text="If you want to help the poor and do your share for a social cause but do not know how, we are here to help! Jin us, be a volunteer and help us deliver the food to needy by picking it from people's home. Enter your details and we will contact you shortly whenever needed. GOOD LUCK!"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your name:"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                />
+
+            <EditText
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your contact number:"/>
+
+            <EditText
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your area:"/>
+
+            <EditText
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Email-ID"/>
+
+            <EditText
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your city:"/>
+
+            <Button
+                android:layout_marginBottom="8dp"
+                android:id="@+id/button"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Continue"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
